@@ -11,6 +11,8 @@
 
 //--- Node JS V8 Engine ko C++ ke saath integrate karke JavaScript ko browser ke bahar run karne ki 
 // ability provide karta hai.
+// lekin Node JS se DOM aur BOM ke features available nahi hote hai.Like alert,
+//  prompt, confirm, window, document etc.
 
 //--- So, Ab C++ ke tarah hum Node js ke through bhi file handling, database handling, networking aur 
 // server side programming kar sakte hai.
