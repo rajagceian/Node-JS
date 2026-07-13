@@ -1,0 +1,2 @@
+Hello, This is a test file created using fs module in Node.js!
+This is an appended line to the testSync.txt file. 1783941988469
