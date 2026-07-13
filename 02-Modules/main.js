@@ -3,7 +3,7 @@
 // 2. Import karna (jahan hum exported data ya function ko use karte hain)
 
 //Import me do cheeze aate hai :-
-// 1. Import inbuilt modules (jo ki Node.js ke sath aate hain)
+// 1. Import built-in modules (jo ki Node.js ke sath aate hain)
 // 2. Import current directory modules (jo ki humne khud banaye hain) --
 //       Jis hum './' ka use karke import karte hain.
 
