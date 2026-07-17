@@ -1,0 +1,6 @@
+1 : User - Raja kumar log in at Wed Jul 15 2026 18:12:16 GMT+0530 (India Standard Time)
+2 : User - Raja kumar purchased Shoes,Soap,Body wash at Wed Jul 15 2026 18:12:16 GMT+0530 (India Standard Time)
+3 : User - Raja kumar updated his Profile at Wed Jul 15 2026 18:12:16 GMT+0530 (India Standard Time)
+4 : User - Raja kumar purchased Fruits,Dates at Wed Jul 15 2026 18:12:16 GMT+0530 (India Standard Time)
+5 : User - Raja kumar updated his DOB at Wed Jul 15 2026 18:12:16 GMT+0530 (India Standard Time)
+6 : User - Raja kumar log out at Wed Jul 15 2026 18:12:16 GMT+0530 (India Standard Time)
