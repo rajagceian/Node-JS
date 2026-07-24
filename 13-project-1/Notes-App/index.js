@@ -1,3 +1,4 @@
+const Table = require("cli-table3"); // CLI display notes as Proper table format
 const fs = require("fs");
 //node app.js add --title="Shopping" --body="Milk, Bread, Eggs"
 const arg = process.argv.slice(2);
@@ -60,9 +61,21 @@ function listNotes(){
     try{
         const notes = fs.readFileSync("./notes.json","utf-8");
         const data = JSON.parse(notes);
-        data.forEach(note => {
-            console.log(`Created At : ${note.date}, Title : ${note.title}, Body : ${note.body}`);
+        //Create table structure
+        const table = new Table({
+            head: ["#", "Date", "Title", "Body"],
+            colWidths: [5, 28, 20, 35]
         });
+        data.forEach((note,idx) => {
+            // console.log(`Created At : ${note.date}, Title : ${note.title}, Body : ${note.body}`);
+            table.push([
+                idx+1,
+                new Date(note.date).toLocaleString(),
+                note.title,
+                note.body,
+            ]);
+        });
+        console.log(table.toString());
     } catch(err){
         console.log("Error : "+err.message);
     }
